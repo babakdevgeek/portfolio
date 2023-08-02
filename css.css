@@ -219,3 +219,8 @@ main section article ul {
         justify-content: flex-start;
     }
 }
+@media (max-width:400px){
+    footer{
+        width: max-content;
+    }
+}
