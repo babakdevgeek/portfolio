@@ -107,6 +107,7 @@ footer{
     color: var(--color-1);
 text-align: center;
 padding:1em 0;
+width: 100%;
 }
 footer ul{
     padding: 0;
@@ -118,8 +119,8 @@ footer ul{
     align-items: center;
     gap: 3em;
 }
-footer section{
-    width: 400px;
+footer div{
+    max-width: 400px;
     margin: 0 auto;
 }
 footer span[class*='fa'] {
@@ -152,6 +153,7 @@ main section article ul {
     gap: 1.5em;
     color: var(--color-3);
     font-size: var(--font-semi-semi-large);
+    flex-flow: row wrap;
 }
 #golden-globe img{
     grid-column: 6/11;
@@ -168,16 +170,16 @@ main section article ul {
     margin: 2em 0;
 }
 /*intro*/
-.intro{
+.reverse{
     max-width:1200px;
     padding-bottom:0;
     margin: auto;
 }
-.intro h2{
+.reverse h2{
     font-size: var(--font-large);
     line-height:0;
 }
-.intro span {
+.reverse span {
     display: block;
     color: var(--color-4);
     font-size: var(--font-semi-large);
@@ -217,10 +219,5 @@ main section article ul {
     }
     #golden-globe div ul{
         justify-content: flex-start;
-    }
-}
-@media (max-width:400px){
-    footer{
-        width: max-content;
     }
 }
