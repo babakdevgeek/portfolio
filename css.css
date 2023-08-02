@@ -142,7 +142,7 @@ footer a:hover{
 main section {
     max-width:1200px;
     margin: auto;
-    padding: 4em 1em ;
+    padding:2em 1em;
 
 }
 main section article{
@@ -224,6 +224,7 @@ main section article ul {
 .contact-me{
     margin:auto;
     max-width: 1200px;
+    padding-top: 0;
 }
 .contact-texts h3{
     color: var(--color-4);
