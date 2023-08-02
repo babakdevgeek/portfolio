@@ -36,6 +36,8 @@ img{
     width:100%;
     border-radius: 1em;
     opacity: 0.4;
+    height: 100%;
+    object-fit: cover;
 }
 nav ul{
     display: flex;
