@@ -4,17 +4,16 @@
     --color-3:#EF6262;
     --color-4:#F3AA60;
 }
-  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nanum+Myeongjo&display=swap');
 html{
     height: 100%;
 }
 h1,h2,h3,h4,a{
-    font-family: 'Bungee Spice', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     padding:0;
     margin:0;
-    font-family: 'Nanum Myeongjo', cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
     background-color: var(--color-1);
     color:#fff;
