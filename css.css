@@ -171,6 +171,7 @@ main section article ul {
 .intro{
     max-width:1200px;
     padding-bottom:0;
+    margin: auto;
 }
 .intro h2{
     font-size: var(--font-large);
