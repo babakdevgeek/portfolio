@@ -154,6 +154,12 @@ main section article ul {
     grid-column:1/7
 
 }
+.gradient-divider-1{
+    height:4px;
+    width: 100%;
+    background: linear-gradient(to right ,var(--color-2),var(--color-1));
+    margin: 2em 0;
+}
 @media (min-width:825px){
     nav{
         max-width: 1200px;
