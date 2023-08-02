@@ -221,6 +221,10 @@ main section article ul {
     text-align: center;
 
 }
+.contact-me{
+    margin:auto;
+    max-width: 1200px;
+}
 .contact-texts h3{
     color: var(--color-4);
     font-size: var(--font-semi-semi-large);
